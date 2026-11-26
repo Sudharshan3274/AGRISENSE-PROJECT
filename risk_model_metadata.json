@@ -1,0 +1,38 @@
+{
+    "features": [
+        "rainfall",
+        "rainfall_7d",
+        "rainfall_30d",
+        "departure_30d",
+        "consecutive_dry_days",
+        "tmean",
+        "tmax",
+        "tmin",
+        "rh",
+        "heat_index",
+        "month"
+    ],
+    "classes": [
+        "High",
+        "Low",
+        "Moderate",
+        "Severe"
+    ],
+    "accuracy": 0.999855961743439,
+    "feature_importances": {
+        "consecutive_dry_days": 0.24994914535207519,
+        "departure_30d": 0.23696070399582198,
+        "rh": 0.17652594791472698,
+        "rainfall_30d": 0.11361546398094041,
+        "tmean": 0.04933718971848225,
+        "tmax": 0.0490720045806327,
+        "month": 0.03539127723190321,
+        "rainfall_7d": 0.03028127836256182,
+        "heat_index": 0.020078598669282927,
+        "rainfall": 0.019404913614023904,
+        "tmin": 0.019383476579548458
+    },
+    "train_years": "2001-2019",
+    "test_years": "2020-2024",
+    "districts_count": 38
+}

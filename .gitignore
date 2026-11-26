@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Large source data (not needed for deployment)
+data/india_districts.geojson
+data/tn_candidates.geojson
+data/nasa_power_cache/
+
+# Joblib models are included for deployment
+# crop_model.joblib
+# risk_model.joblib
+
+# Scratch / inspection scripts
+check_boundaries.py
+check_weather.py
+inspect_data.py
+inspect_risk_data.py
+test_integration.py
